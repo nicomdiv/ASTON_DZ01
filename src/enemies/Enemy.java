@@ -4,7 +4,7 @@ public class Enemy implements Mortal {
     private int health;
 
     public Enemy(int health) {
-        this.health = health;
+        setHealth(health);
     }
 
     public int getHealth() {
