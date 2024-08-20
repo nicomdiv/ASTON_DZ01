@@ -29,5 +29,5 @@ bin/
 .DS_Store
 
 ### Nikitin ###
-.idea/
 ASTON_DZ01.iml
+/.idea/
