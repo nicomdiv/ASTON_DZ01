@@ -1,4 +1,4 @@
-public class Hero {
+public abstract class Hero {
     private String name;
 
     public Hero(String name) {
@@ -9,8 +9,5 @@ public class Hero {
         return name;
     }
 
-    public void attackEnemy(Enemy enemy) {
-        System.out.println(name + " атакует врага.");
-        enemy.takeDamage(10);
-    }
+    public abstract void attackEnemy(Enemy enemy);
 }
